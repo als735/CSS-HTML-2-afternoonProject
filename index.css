@@ -3,8 +3,10 @@
     font-family: sans-serif;
 }
 
+
 .row-list {
     list-style: none; 
+    width: 100%; 
     margin: 0px; 
     padding: 0px; 
     display: inline-block; 
@@ -30,28 +32,26 @@
     padding-top: 5px; 
     
 }
-.magnifying-glass {
-    height: 30px; 
-    width: 30px; 
-    float: left; 
-}
 
 .question-mark {
     height: 30px; 
     width: 30px; 
-    float: left; 
+    float: right; 
     font-size: 20px; 
     border-radius: 50%; 
     background-color: grey; 
     color: white; 
     text-align: center; 
     padding-top: 4px; 
+    margin-right: 10px;
 }
 .shopping-cart {
     height: 30px; 
     width: 30px; 
-    float: left;  
-    background-image: url("")
+    float: right;  
+    padding-top: 5px; 
+    margin-left: 10px; 
+    margin-right: 10px;
 }
 
 .a-cirlce {
@@ -60,10 +60,12 @@
     border-radius: 50%;
     background-color: purple; 
     color: white; 
-    float: left; 
+    float: right; 
     font-size: 15px; 
     text-align: center; 
     padding-top: 4px; 
+    margin-left: 10px; 
+    margin-right: 10px;
 }
 
 .large-image-container1 {
@@ -71,10 +73,15 @@
     color: white; 
     height: 400px;
     width: 100%; 
+    
 }
 
 .text-box1 {
     float: left; 
+    margin-left: 100px; 
+    margin-top: 90px; 
+    width: 40%; 
+    display: block; 
 }
 
 .buy-now {
@@ -86,15 +93,23 @@
 
 .main-shot-image {
     height: 400px; 
-    width: 400px;
-    background-color: aliceblue; 
+    width: 40%;
+    display: block; 
     float: left; 
-    margin-left: 350px; 
+    clear: right; 
+    margin-top: 10px;
+}
 
+.main-shot-image img {
+    max-width: 500px; 
+    width: 100%; 
 }
 
 .electronics {
+    width: 100%; 
     flex-direction: row; 
+    margin-top: 40px; 
+
 }
 
 ul.row-list li {
@@ -103,32 +118,50 @@ ul.row-list li {
 }
 
 .pixel-3 {
-    background-color: pink; 
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/51q5a-2O%2B0L._SL1000_.jpg"); 
-    height: 20px; 
-    width: 20px; 
+    background-color: grey; 
+    background-image: url("https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1694&q=80"); 
+    background-size: cover; 
+    height: 200px; 
+    width: 17%; 
+    margin-left: 15px; 
+    margin-right: 15px; 
 }
 
 .pixel-stand {
-    background-color: pink; 
-    height: 20px; 
-    width: 20px;
+    background-color: grey; 
+    background-image: url("https://images.unsplash.com/photo-1513611771808-7e8ab7f1dec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); 
+    background-size: cover; 
+    height:200px; 
+    width: 17%; 
+    margin-left: 15px; 
+    margin-right: 15px; 
 }
 
 .google-home-hub {
     background-color: grey; 
-    height: 20px; 
-    width: 20px;
+    background-image: url("https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"); 
+    background-size: cover; 
+    height: 200px; 
+    width: 17%; 
+    margin-left: 15px; 
+    margin-right: 15px; 
 }
 
 .google-home-mini {
     background-color: grey; 
-    height: 20px; 
-    width: 20px;
+    background-image: url("https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1603&q=80"); 
+    background-size: cover; 
+    height: 200px; 
+    width: 17%; 
+    margin-left: 15px; 
+    margin-right: 15px; 
 }
 
 .pixel-slate {
     background-color: grey; 
-    height: 20px; 
-    width: 20px;
+    background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); 
+    background-size: cover; 
+    height: 200px; 
+    width: 17%; 
+    margin-left: 15px; 
 }
